@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const li = document.createElement("li");
         li.classList.add("task-item");
         li.innerHTML = `
-            <input type="checkbox">
-            <span>${taskText}</span>
-            <button class="delete-btn">Eliminar</button>
+           <span>${taskText}</span>
+           <input type="checkbox">
+           <button class="delete-btn">🗑</button>
         `;
         taskList.appendChild(li);
 
